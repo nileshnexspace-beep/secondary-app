@@ -7,10 +7,10 @@ import {
   TrendingUp, PieChart, Download, FileSpreadsheet, Trash2,
   Smartphone, Share, Info
 } from 'lucide-react';
-import { Category, InventoryLog, DailyAggregation, Source } from './types';
-import { CATEGORIES, CATEGORY_COLORS, INITIAL_LOGS } from './constants';
-import { InventoryChart } from './components/InventoryChart';
-import { getPortfolioInsights } from './services/geminiService';
+import { Category, InventoryLog, DailyAggregation, Source } from './types.ts';
+import { CATEGORIES, CATEGORY_COLORS, INITIAL_LOGS } from './constants.ts';
+import { InventoryChart } from './components/InventoryChart.tsx';
+import { getPortfolioInsights } from './services/geminiService.ts';
 
 const STORAGE_KEY = 'estatepulse_inventory_logs';
 const USER_KEY = 'estatepulse_active_user';
