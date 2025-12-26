@@ -15,8 +15,8 @@ import {
   Line,
   Cell
 } from 'recharts';
-import { DailyAggregation, Category } from '../types';
-import { CATEGORIES, CATEGORY_COLORS } from '../constants';
+import { DailyAggregation, Category } from '../types.ts';
+import { CATEGORIES, CATEGORY_COLORS } from '../constants.ts';
 
 interface Props {
   data: any[];
